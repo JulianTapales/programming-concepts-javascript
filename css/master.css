@@ -1,5 +1,5 @@
 body {
-  padding: 2rem;
+  padding: 4rem;
 }
 
 h1{
@@ -7,7 +7,7 @@ h1{
 }
 
 .example {
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .footer {
@@ -16,4 +16,16 @@ h1{
 
 .header {
   margin-bottom: 6rem;
+}
+
+iframe {
+  max-height: 10rem;
+
+  border-top: #D2D2D2 1px solid;
+  border-bottom: #D2D2D2 1px solid;
+  transition: all 0.5s ease;
+}
+
+.iframe-full {
+  max-height: 100% !important;
 }
