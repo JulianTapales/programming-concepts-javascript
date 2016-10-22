@@ -4,10 +4,10 @@ $('.showAll').click(function(e){
   if(elem.hasClass('isOpen')) {
     elem.removeClass('isOpen')
     $(this).html("Show more")
-    $(this).parents('.example').children('iframe').removeClass('iframe-full')
+    $(this).parents('.example').children('.wrapper').removeClass('wrapper-full')
   } else {
     elem.addClass('isOpen')
     $(this).html("Show less")
-    $(this).parents('.example').children('iframe').addClass('iframe-full')
+    $(this).parents('.example').children('.wrapper').addClass('wrapper-full')
   }
 })

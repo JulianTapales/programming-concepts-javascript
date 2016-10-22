@@ -18,14 +18,16 @@ h1{
   margin-bottom: 6rem;
 }
 
-iframe {
-  max-height: 10rem;
-
-  border-top: #D2D2D2 1px solid;
-  border-bottom: #D2D2D2 1px solid;
-  transition: all 0.5s ease;
+.wrapper-full {
+  max-height: 100rem !important;
 }
 
-.iframe-full {
-  max-height: 100% !important;
+.wrapper {
+  border-top: #D2D2D2 1px solid;
+  border-bottom: #D2D2D2 1px solid;
+
+  position: relative;
+  max-height: 10rem;
+  overflow: scroll;
+  transition: all 0.5s ease;
 }
