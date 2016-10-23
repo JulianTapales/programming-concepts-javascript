@@ -1,5 +1,9 @@
 body {
-  padding: 4rem;
+  padding: 8vw;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 h1{
@@ -22,6 +26,11 @@ h1{
   max-height: 300rem !important;
 }
 
+iframe {
+  position: relative;
+  display: block;
+}
+
 .wrapper {
   border-top: #D2D2D2 1px solid;
   border-bottom: #D2D2D2 1px solid;
@@ -30,4 +39,17 @@ h1{
   max-height: 10rem;
   overflow: scroll;
   transition: all 0.5s ease;
+}
+
+@media only screen and (max-width : 500px) {
+  body {
+    padding: 0.8rem;
+    padding-top: 2rem;
+  }
+}
+
+@media only screen  and (min-width : 1224px) {
+  body {
+    /*padding: 8rem;*/
+  }
 }
